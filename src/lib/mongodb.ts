@@ -60,7 +60,6 @@
 
 // // Hardcoded MongoDB URI (replace with your actual URI)
 // const MONGODB_URI = process.env.MONGODB_URI;
-//   // "mongodb+srv://rumanashar693_db_user:ITGKfxiOtAl4niC3@cluster0.8edwmoy.mongodb.net/alrehman?retryWrites=true&w=majority&appName=Cluster0";
 
 // if (!MONGODB_URI) {
 //   throw new Error("MongoDB URI is missing. Please provide a valid URI.");
