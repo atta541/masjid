@@ -86,14 +86,12 @@ export default function RootLayout({
 function ConditionalLayout({ children }: { children: React.ReactNode }) {
   const { data: session } = useSession();
 
-  // Assuming role is stored in `session.user.role`
-  const isAdmin = session?.user?.role === "admin";
-
+  // Always render Header and Footer, but Header will handle admin-specific rendering internally
   return (
     <>
-      {!isAdmin && <Header />}
+      <Header />
       {children}
-      {!isAdmin && <Footer />}
+      <Footer />
     </>
   );
 }

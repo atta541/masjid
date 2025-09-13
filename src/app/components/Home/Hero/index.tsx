@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-screen z-10 pt-20">
       {/* Background Image */}
       <Image
         src="/images/hero/buildingone.jpg" // must be inside /public

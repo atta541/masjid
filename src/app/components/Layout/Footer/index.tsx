@@ -89,14 +89,14 @@ const Footer: FC = () => {
                   Pricing
                 </Link>
               </li>
-              <li className="pb-1.563">
+              {/* <li className="pb-1.563">
                 <Link
                   href="/blogs"
                   className="text-lg font-medium text-white/50 hover:text-primary"
                 >
                   Blogs
                 </Link>
-              </li>
+              </li> */}
               <li className="pb-1.563">
                 <Link
                   href="/contact"

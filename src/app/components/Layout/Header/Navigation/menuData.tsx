@@ -11,14 +11,14 @@ export const headerData: HeaderItem[] = [
       { label: "Services details", href: "/services/edtech-apps" },
     ],
   },
-  {
-    label: "Blogs",
-    href: "/blogs",
-    submenu: [
-      { label: "Blog list", href: "/blogs" },
-      { label: "Blog details", href: "/blogs/blog_1" },
-    ],
-  },
+  // {
+  //   label: "Blogs",
+  //   href: "/blogs",
+  //   submenu: [
+  //     { label: "Blog list", href: "/blogs" },
+  //     { label: "Blog details", href: "/blogs/blog_1" },
+  //   ],
+  // },
   { label: "Contact", href: "/contact" },
   // { label: "Docs", href: "/documentation#version" },
 ];
