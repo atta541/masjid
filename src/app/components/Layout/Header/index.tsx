@@ -148,13 +148,13 @@ const Header: React.FC = () => {
             </>
           ) : (
             <>
-              <Link
+              {/* <Link
                 href="/signin"
                 className="hidden xl:block bg-transparent border border-primary text-primary px-4 py-2 rounded-lg outline-none hover:bg-primary hover:text-white duration-500 text-base font-semibold"
               >
                 Sign In
-              </Link>
-              {isSignInOpen && (
+              </Link> */}
+              {/* {isSignInOpen && (
                 <div
                   ref={signInRef}
                   className="fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50"
@@ -170,7 +170,9 @@ const Header: React.FC = () => {
                     <Signin />
                   </div>
                 </div>
-              )}
+              )}  */}
+
+{/* 
               <Link
                 href="/signup"
                 className="hidden xl:block bg-primary text-white px-4 py-2 rounded-lg outline-none hover:bg-orange-600 border border-primary duration-500 text-base font-semibold"
@@ -193,7 +195,7 @@ const Header: React.FC = () => {
                     <SignUp />
                   </div>
                 </div>
-              )}
+              )} */}
             </>
           )}
           <button
@@ -243,7 +245,7 @@ const Header: React.FC = () => {
           {headerData.map((item, index) => (
             <MobileHeaderLink key={index} item={item} />
           ))}
-          <div className="mt-4 flex gap-4 w-full">
+          {/* <div className="mt-4 flex gap-4 w-full">
             <Link
               href="/signin"
               className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-orange-600 hover:text-white"
@@ -262,7 +264,7 @@ const Header: React.FC = () => {
             >
               Sign Up
             </Link>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>
